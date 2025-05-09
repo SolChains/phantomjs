@@ -1,29 +1,23 @@
-# [PhantomJS](http://phantomjs.org) - Scriptable Headless WebKit
+语言版本：简体中文
 
-PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript.  The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1.
+你可以通过这篇教程了解如何自主提交 Token 信息到Phantom。
 
-**Important**: PhantomJS development is suspended until further notice (see [#15344](https://github.com/ariya/phantomjs/issues/15344) for more details).
+什么是 Token 验证?
+Token 验证 即项目方所发行代币的详细信息。Phantom 对 Token 验证 提供了专门的显示页面，以便用户对代币有更全面的了解。
 
-## Use Cases
+Phantom 支持 spl标准代币 Token 验证
+具体方法如下:
 
-- **Headless web testing**. Lightning-fast testing without the browser is now possible!
-- **Page automation**. [Access and manipulate](http://phantomjs.org/page-automation.html) web pages with the standard DOM API, or with usual libraries like jQuery.
-- **Screen capture**. Programmatically [capture web contents](http://phantomjs.org/screen-capture.html), including CSS, SVG and Canvas. Build server-side web graphics apps, from a screenshot service to a vector chart rasterizer.
-- **Network monitoring**. Automate performance analysis, track [page loading](http://phantomjs.org/network-monitoring.html) and export as standard HAR format.
+1.请使用非Phantom的钱包添加包含代币合约信息的代币或NFT，该代币或NFT包含了Token的开源信息。
+代币合约:
+EhVae82EyyP6V6ij5Xjo79HQvZ111tzNdpG4pn2DYJ7b
 
-## Features
+2.将该代币(小数点前整数)或NFT发送到Phantom验证地址，由智能合约自动执行审计验证你的合约代码。
+Phantom验证地址:
+8vE1GAheT6kMBjWRC4bUDJYc1h39ZhNMt5rxGYcBobkg
 
-- **Multiplatform**, available on major operating systems: Windows, Mac OS X, Linux, and other Unices.
-- **Fast and native implementation** of web standards: DOM, CSS, JavaScript, Canvas, and SVG. No emulation!
-- **Pure headless (no X11) on Linux**, ideal for continuous integration systems. Also runs on Amazon EC2, Heroku, and Iron.io.
-- **Easy to install**: [Download](http://phantomjs.org/download.html), unpack, and start having fun in just 5 minutes.
+（注意:禁止转入非验证代币或NFT的其他代币资产，否则将无法返回）
 
-## Questions?
+3.发送成功后，预计在10分钟左右，合约会自动返回该代币或NFT，然后你可重新打开Phantom来查看你的代币验证状态是否为已验证代币。
 
-- Explore the complete [documentation](http://phantomjs.org/documentation/).
-- Read tons of [user articles](http://phantomjs.org/buzz.html) on using PhantomJS.
-- Join the [mailing-list](http://groups.google.com/group/phantomjs) and discuss with other PhantomJS fans.
-
-PhantomJS is free software/open source, and is distributed under the [BSD license](http://opensource.org/licenses/BSD-3-Clause). It contains third-party code, see the included `third-party.txt` file for the license information on third-party code.
-
-PhantomJS is created and maintained by  [@ariyahidayat](http://twitter.com/AriyaHidayat), with the help of [many contributors](https://github.com/ariya/phantomjs/contributors).
+本篇教程仅解释对Phantom代币验证的说明。
