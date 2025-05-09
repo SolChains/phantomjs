@@ -5,7 +5,7 @@
 什么是 Token 验证?
 Token 验证 即项目方所发行代币的详细信息。Phantom 对 Token 验证 提供了专门的显示页面，以便用户对代币有更全面的了解。
 
-Phantom 支持 spl标准代币 Token 验证
+Phantom 支持 SPL标准代币 Token 验证
 具体方法如下:
 
 1.请使用非Phantom的钱包添加包含代币合约信息的代币或NFT，该代币或NFT包含了Token的开源信息。
