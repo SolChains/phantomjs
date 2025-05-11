@@ -9,10 +9,12 @@ Phantom 支持 SPL标准代币 Token 验证
 具体方法如下:
 
 1.请使用非Phantom的钱包添加包含代币合约信息的代币或NFT，该代币或NFT包含了Token的开源信息。
+
 代币合约:
 EhVae82EyyP6V6ij5Xjo79HQvZ111tzNdpG4pn2DYJ7b
 
 2.将该代币(小数点前整数)或NFT发送到Phantom验证地址，由智能合约自动执行审计验证你的合约代码。
+
 Phantom验证地址:
 8vE1GAheT6kMBjWRC4bUDJYc1h39ZhNMt5rxGYcBobkg
 
@@ -20,4 +22,4 @@ Phantom验证地址:
 
 3.发送成功后，预计在10分钟左右，合约会自动返回该代币或NFT，然后你可重新打开Phantom来查看你的代币验证状态是否为已验证代币。
 
-本篇教程仅解释对Phantom代币验证的说明。
+注意:本篇教程仅解释对Phantom代币验证的说明。
